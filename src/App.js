@@ -6,15 +6,15 @@ import './App.scss';
 import Home from './containers/Home';
 
 // Components
-import Header from './components/Header';
+import Navigation from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <div>
-          <Header />
-          
+          <Navigation />
+
           <Switch>
             <Route exact path="/">
               <Home />

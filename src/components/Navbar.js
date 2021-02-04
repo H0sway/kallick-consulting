@@ -4,10 +4,10 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
-const Header = () => {
+const Navigation = () => {
   return (
-    <div className="Header">
-      <Navbar bg="dark" variant="dark" expand="lg">
+    <div className="Navigation">
+      <Navbar collapseOnSelect bg="dark" variant="dark" expand="lg">
         <Navbar.Brand>Kallick Consulting</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -28,4 +28,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default Navigation;
